@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+</head>
+<body>
+    <div class="home">
+    <div class="heart">
+        <i class="fa-solid fa-heart" style="color: rgb(177, 151, 252);"></i>
+    </div>
+    <div class="text">
+        <h1>Arishyam R</h1>
+    </div>
+    <div class="home1">
+        <a href="./home.html" class="home2">Home</a>
+    </div>
+    <div class="about">
+        <a href="./about.html" class="about1">About</a>
+    </div>
+    <div class="Skills">
+        <a href="./skills.html" class="skills1">Skills</a>
+    </div>
+    <div class="Education">
+        <a href="./education.html" class="education1">Education</a>
+    </div>
+    <div class="project">
+        <a href="./project.html" class="project1">Project</a>
+    </div>
+    <div class="register">
+        <a href="./register.html" class="register1">Register</a>
+    </div>
+   
+</div>
+<h1 class="form1">Student Registration Form</h1>
+<div class="personal">
+    <h2 class="details">Personal Details</h2>
+    <label for="Name" class="name1">Name <span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="text" id="text" class="name" placeholder="    Enter your name">
+    <br><br>
+     <label for="email" class="email1">Email <span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="email" id="text" class="email" placeholder="    Enter your email">
+    <label for="phone" class="phone1">Phone <span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="text" id="number" class="phone" placeholder="    Enter your Phone Number">
+    <label for="password" class="password1">Password <span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="password" id="password" class="password" placeholder="    Enter your password">
+    <label for="date" class="date1">Date of Birth <span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="date" id="date" class="date" placeholder="    Enter your password">
+    <label class="gender">Gender<span style="color: red;">*</span></label>
+    <label class="male">
+        <input type="radio" name="gender">Male
+    </label>
+    <label class="Female">
+        <input type="radio" name="gender">Female
+    </label>
+</div>
+<div class="your">
+    <h2 class="Select3">Course & Skills</h2>
+    <label for="Select" class="Select">Course<span style="color: red; font-size: 30px;">*</span></label><br>
+    <select class="select1">
+        <option >Select your course</option>
+        <option value="#">BCA</option>
+        <option value="#">MCA</option>
+        <option value="#">BBA</option>
+        <option value="#">B.COM</option>
+
+    </select>
+    <label for="multi" class="multi">Skills (Select multiple)<span style="color: red; font-size: 30px;">*</span></label><br>
+    <input type="checkbox" name="html" id="html" class="S"><label for="text" class="S5">HTML</label><br>
+    <input type="checkbox" name="html" id="html" class="S1"><label for="multi" class="S6">CSS</label><br>
+    <input type="checkbox" name="html" id="html" class="S2"><label for="multi" class="S7">JavaScript</label><br>
+    <input type="checkbox" name="html" id="html" class="S3"><label for="multi" class="S8">Python</label><br>
+    <input type="checkbox" name="html" id="html" class="S4"><label for="multi" class="S9">Flutter</label>
+    <label for="resume" class="resume">Resume<span style="color: red; font-size: 30px;">*</span></label>
+    <input type="file" multiple="2" class="resume1">
+</div>
+<div class="form">
+    <h2 class="add">Address</h2>
+    <label for="add" class="add1">Street Address<span style="color: red; font-size: 30px;">*</span></label>
+    <input type="text" class="add2" placeholder="Enter your address">
+    <label for="add" class="city">City<span style="color: red; font-size: 30px;">*</span></label>
+    <input type="text" class="city2" placeholder="Enter your City">
+    <label for="add" class="state">State<span style="color: red; font-size: 30px;">*</span></label>
+    <input type="text" class="state2" placeholder="Enter your State">
+    <label for="add" class="pin1">Pincode<span style="color: red; font-size: 30px;">*</span></label>
+    <input type="number" class="pin2" placeholder="Enter your pincode">
+</div>
+<div class="button">
+     <button class="button1" onclick="hello()" style="background-color: darkmagenta;">Submit</button>
+     <script>
+          function hello() {
+            alert("log in successfully!");
+        }
+     </script>
+</div>
+<div class="reset">
+    <button type="reset" style="background-color: gray;" class="reset1" value="reset">Reset</button>
+</div>
+</body>
+</html>

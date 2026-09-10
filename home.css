@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 20px 0px ;
+    background: linear-gradient(132deg,#B8D0EE,#5F8FCB);
+    
+}
+.home{
+    border: 2px solid  #5F8FCB;
+    height: 80px;
+    width: 2000px;
+    background-color: #5F8FCB;
+}
+.text{
+position: relative;
+top: -55px;
+left: 60px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heart{
+    position: relative;
+    top: 15px;
+    font-size: 45px;
+}
+.home1{
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    border: 2px solid  #5F8FCB;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+   background-color: #5F8FCB;
+   
+}
+.home2{
+position: absolute;
+top: 8px;
+left: 18px;
+text-decoration: none;
+color: rgb(243, 243, 246) ;
+}
+.home1:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.about{
+     position: absolute;
+    top: 30px;
+    left: 900px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+       background-color:  #5F8FCB;
+}
+.about1{
+    position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+ color: rgb(245, 245, 248) ;
+}
+.about:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Skills{
+  position: absolute;
+    top: 30px;
+    left: 1000px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+     
+}
+.skills1{
+     position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+  color: rgb(255, 255, 255) ;
+}
+.Skills:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Education{
+      position: absolute;
+    top: 30px;
+    left: 1100px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.education1{
+     position: absolute;
+top: 8px;
+left: 7px;
+ text-decoration: none;
+ color: rgb(254, 254, 255) ;
+}
+.Education:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.project{
+    position: absolute;
+    top: 30px;
+    left: 1210px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color: #5F8FCB;
+      
+}
+.project1{
+     position: absolute;
+top: 8px;
+left: 16px;
+ text-decoration: none;
+ color: rgb(245, 245, 246) ;
+}
+.project:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.register{
+      position: absolute;
+    top: 30px;
+    left: 1320px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.register1{
+     position: absolute;
+top: 8px;
+left: 12px;
+ text-decoration: none;
+ color: rgb(244, 244, 249) ;
+}
+.register:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+    
+   
+}
+.contact{
+      position: absolute;
+    top: 30px;
+    left: 1430px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color:  #5F8FCB;
+}
+.contact1{
+     position: absolute;
+top: 8px;
+left: 13px;
+ text-decoration: none;
+ color: rgb(243, 243, 246) ;
+}
+.contact:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+    
+   
+}
+.h2{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: rgb(0, 52, 121);
+    font-style: oblique;
+}
+.h1{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    color: rgb(0, 52, 121);
+    font-style: italic;
+    font-size: 40px;
+}
+.h3{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+   font-family: 'Courier New', Courier, monospace;
+   color: rgb(0, 52, 121);
+}
+.p{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    color: rgb(0, 52, 121);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Explore{
+   position: absolute;
+   top: -5px;
+   left: 30px;
+}
+.me{
+    position: absolute;
+    left: 60px;
+    top: -5px;
+}
+.me1{
+ position: absolute;
+    top: 440px;
+    left: 320px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Explore1{
+     position: absolute;
+    top: 440px;
+    left: 50px;
+    border: 2px solid rgb(0, 52, 121);
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(0, 52, 121);
+    color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    animation: move 3s alternate ;
+}
+@keyframes move{
+    from{
+        transform:scale(1.5);
+    }
+    to{
+        transform: tnslate(0,100px);
+    }
+}
+.dream{
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 52, 121);
+}
+.dot{
+    position: absolute;
+    top: 465px;
+    left: 200px;
+    font-size: 60px;
+    color: rgb(0, 52, 121);
+}
+.learn{
+     position: absolute;
+    top: 530px;
+    left: 270px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    color: rgb(0, 52, 121);
+}
+.dot1{
+    position: absolute;
+    top: 465px;
+    left: 390px;
+    font-size: 60px;
+    color: rgb(0, 52, 121);
+}
+.build{
+     position: absolute;
+    top: 530px;
+    left: 470px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    color: rgb(0, 52, 121);
+}
+.img{
+    position: absolute;
+    left: 950px;
+    border-radius: 30px;
+    
+}
+.img:hover{
+    box-shadow: 5px 10px 55px  rgb(0, 52, 121);
+    transition: all 2s;
+}
+.Explore1:hover{
+    background-color: black;
+    border-color: black;
+}
+.me1:hover{
+    border-color: white;
+    color: white;
+}
+.p:hover{
+    color: white;
+}
+.h3:hover{
+    color: white;
+}
+.h2:hover{
+    color: white;
+}
+.h1:hover{
+    color: white;
+}

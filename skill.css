@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 20px 0px ;
+  background-color: #eceef1;
+    
+}
+.home{
+    border: 2px solid  #5F8FCB;
+    height: 80px;
+    width: 2000px;
+    background-color: #5F8FCB;
+}
+.text{
+position: relative;
+top: -55px;
+left: 60px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heart{
+    position: relative;
+    top: 15px;
+    font-size: 45px;
+}
+.home1{
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    border: 2px solid  #5F8FCB;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+   background-color: #5F8FCB;
+   
+}
+.home2{
+position: absolute;
+top: 8px;
+left: 18px;
+text-decoration: none;
+color: rgb(243, 243, 246) ;
+}
+.home1:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.about{
+     position: absolute;
+    top: 30px;
+    left: 900px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+       background-color:  #5F8FCB;
+}
+.about1{
+    position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+ color: rgb(245, 245, 248) ;
+}
+.about:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Skills{
+  position: absolute;
+    top: 30px;
+    left: 1000px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+     
+}
+.skills1{
+     position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+  color: rgb(255, 255, 255) ;
+}
+.Skills:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Education{
+      position: absolute;
+    top: 30px;
+    left: 1100px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.education1{
+     position: absolute;
+top: 8px;
+left: 7px;
+ text-decoration: none;
+ color: rgb(254, 254, 255) ;
+}
+.Education:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.project{
+    position: absolute;
+    top: 30px;
+    left: 1210px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color: #5F8FCB;
+      
+}
+.project1{
+     position: absolute;
+top: 8px;
+left: 16px;
+ text-decoration: none;
+ color: rgb(245, 245, 246) ;
+}
+.project:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.register{
+      position: absolute;
+    top: 30px;
+    left: 1320px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.register1{
+     position: absolute;
+top: 8px;
+left: 12px;
+ text-decoration: none;
+ color: rgb(244, 244, 249) ;
+}
+.register:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+    
+   
+}
+.contact{
+      position: absolute;
+    top: 30px;
+    left: 1430px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color:  #5F8FCB;
+}
+.contact1{
+     position: absolute;
+top: 8px;
+left: 13px;
+ text-decoration: none;
+ color: rgb(243, 243, 246) ;
+}
+.contact:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.order{
+    position: absolute;
+    top: 120px;
+    left: 940px;
+    font-size: 30px;
+   
+}
+.ol{
+    color: white;
+    position: absolute;
+    top: 195px;
+    left: 920px;
+    border: 2px solid #5F8FCB;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #5F8FCB;
+      box-shadow: 2px 3px 4px 5px rgb(138, 154, 178);
+     
+}
+.ul{
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+     border: 2px solid #5F8FCB;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #5F8FCB;
+     box-shadow: 2px 3px 4px 5px rgb(138, 154, 178);
+    
+}
+.myskill{
+position: absolute;
+left: 320px;
+top: 130px;
+font-size: 20px;
+}
+.grow{
+    position: absolute;
+left: 800px;
+top: 600px;
+border: 2px solid #5F8FCB;
+ width: 250px;
+    text-align: center;
+    background-color: #5F8FCB;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 5px gray;
+    color: white;
+}
+.keep1{
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+    border: 2px solid #5F8FCB ;
+     width: 250px;
+    text-align: center;
+    background-color: #5F8FCB;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 5px gray;
+}
+.my{
+    position: absolute;
+    left: 50px;
+    color: #f8f8f8;
+    border: 2px solid  #5F8FCB;
+    width: 200px;
+    text-align: center;
+    background-color: #5F8FCB;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 5px gray;
+}
+.ol:hover{
+    background-color: #5F8FCB;
+     box-shadow: 5px 5px 5px 5px  rgb(101, 100, 100);
+     color: black;
+}
+.ul:hover{
+     background-color: #5F8FCB;
+      color: black;
+
+     box-shadow: 5px 5px 5px 5px  rgb(97, 95, 95);
+}
+.grow:hover{
+     background-color: #5F8FCB;
+      color: black;
+
+     box-shadow: 5px 5px 5px 5px  rgb(97, 95, 95);
+}
+.keep1:hover{
+     background-color: #5F8FCB;
+      color: black;
+
+     box-shadow: 5px 5px 5px 5px  rgb(97, 95, 95);
+}
+.my:hover{
+     background-color: #5F8FCB;
+      color: black;
+
+     box-shadow: 5px 5px 5px 5px  rgb(97, 95, 95);
+}

@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 20px 0px ;
+    background: linear-gradient(132deg,#B8D0EE);
+    
+}
+.home{
+    border: 2px solid  #5F8FCB;
+    height: 80px;
+    width: 2000px;
+    background-color: #5F8FCB;
+}
+.text{
+position: relative;
+top: -55px;
+left: 60px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heart{
+    position: relative;
+    top: 15px;
+    font-size: 45px;
+}
+.home1{
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    border: 2px solid  #5F8FCB;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+   background-color: #5F8FCB;
+   
+}
+.home2{
+position: absolute;
+top: 8px;
+left: 18px;
+text-decoration: none;
+color: rgb(243, 243, 246) ;
+}
+.home1:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.about{
+     position: absolute;
+    top: 30px;
+    left: 900px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+       background-color:  #5F8FCB;
+}
+.about1{
+    position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+ color: rgb(245, 245, 248) ;
+}
+.about:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Skills{
+  position: absolute;
+    top: 30px;
+    left: 1000px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+     
+}
+.skills1{
+     position: absolute;
+top: 8px;
+left: 18px;
+ text-decoration: none;
+  color: rgb(255, 255, 255) ;
+}
+.Skills:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.Education{
+      position: absolute;
+    top: 30px;
+    left: 1100px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.education1{
+     position: absolute;
+top: 8px;
+left: 7px;
+ text-decoration: none;
+ color: rgb(254, 254, 255) ;
+}
+.Education:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.project{
+    position: absolute;
+    top: 30px;
+    left: 1210px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color: #5F8FCB;
+      
+}
+.project1{
+     position: absolute;
+top: 8px;
+left: 16px;
+ text-decoration: none;
+ color: rgb(245, 245, 246) ;
+}
+.project:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+.register{
+      position: absolute;
+    top: 30px;
+    left: 1320px;
+      border: 2px solid  #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     background-color:  #5F8FCB;
+}
+.register1{
+     position: absolute;
+top: 8px;
+left: 12px;
+ text-decoration: none;
+ color: rgb(244, 244, 249) ;
+}
+.register:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+    
+   
+}
+.contact{
+      position: absolute;
+    top: 30px;
+    left: 1430px;
+      border: 2px solid #5F8FCB;
+       width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+     border-radius: 20px;
+      background-color:  #5F8FCB;
+}
+.contact1{
+     position: absolute;
+top: 8px;
+left: 13px;
+ text-decoration: none;
+ color: rgb(243, 243, 246) ;
+}
+.contact:hover{
+    background-color: rgb(0, 66, 152);
+    border: 2px solid rgb(0, 66, 152);
+    outline: none;
+}
+table{
+    border-collapse:collapse ;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 170px;
+}
+th{
+    background-color: purple;
+    color: white;
+    padding: 18px;
+}
+td{
+    border: 2px solid #ccbfbf ;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+   
+}
+tr:hover{
+    background-color: #f2f2f2;
+}
+tr{
+ background-color: rgb(168, 103, 167);
+}
+th:hover{
+    background-color: white;
+    color: black;
+}
+.h3{
+    position: absolute;
+    top: 190px;
+    left: 680px;
+}
+.h3:hover{
+    color: white;
+    transition: all 2s;
+}
+.thank1{
+position: absolute;
+top: 503px;
+border: 2px solid #ccbfbf;
+left: 156px;
+width: 1225px;
+background-color:rgb(168, 103, 167) ;
+height: 50px;
+text-align: center;
+color: white;
+}
+.thank2{
+    position: absolute;
+    top: -10px;
+    text-align: center;
+    left: 450px;
+}
+.my4{
+    
+background-color: #5F8FCB;
+border: 2px solid #5F8FCB;
+width: 220px;
+position: absolute;
+top: 150px;
+border-radius: 20px;
+text-align: center;
+}
+.my4:hover{
+     box-shadow: 5px 5px 5px 5px  rgb(91, 89, 89);
+background-color: #5F8FCB;
+color: #f6f6f6;
+transition: all 2s;
+}
+.the{
+    position: absolute;
+    top: 580px;
+    left: 480px;
+    font-style: italic;
+    font-size: 20px;
+}
